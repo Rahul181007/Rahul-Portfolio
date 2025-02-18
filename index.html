@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RAHUL-PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icons8-portfolio-96.png">
+    <script src="https://kit.fontawesome.com/b38f7d7e0f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h3 class="nameR"><Span>R</Span>AHUL.</h3>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home </a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#services">Service </a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars habars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi I'm <span>RAHUL</span><br> From India </h1>
+            </div>
+        </div>
+    </div>
+    <!-- About----------- -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile pic.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p> I’m RAHUL, a web developer with a passion for building clean, functional, and visually striking websites. With a strong focus on user experience and modern design, I specialize in creating responsive and high-performance websites that bring ideas to life.
+
+                        From front-end aesthetics to back-end efficiency, I love crafting seamless digital experiences that not only look great but also work flawlessly. Whether it’s a sleek portfolio, an e-commerce store, or a dynamic web app, I’m all about turning ideas into reality with clean code and creative solutions.</p>
+                <div class="tab-tiles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Crafting clean, responsive, and high-performance websites for seamless digital experiences.</li>
+                        <li><span>3D designer</span><br> Creating precise, functional, and innovative 3D models for engineering and manufacturing excellence.</li>
+                        <li><span>2D Designer</span><br>Designing precise, detailed, and efficient 2D & 3D drawings for engineering and architectural excellence.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2025-current</span><br>Intern as Web Developer at BROTOTYPE  </li>
+                        <li><span>2022-2025</span><br> Project Engineer at GKI</li>
+                        <li><span>2022-3months</span><br> Intern Design Engineer at Galexon</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2016-2020</span><br>BE MECHANICAL ENGINEERING <br>KIT-Kalaignarkarunanidhi Institute of Technology-Coimbatore</li>
+                        <li><span>2014-2016</span><br> HIGHER SECONDARY <br>St.PAULS EMHSS-Kohinoor</li>
+                        <li><span>2013-2014</span><br>SSLC <br>MEMS English MEdium School-U.city</li>
+                    </ul>
+                </div>
+
+
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- Service -->
+      <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                   <h2>Web Design</h2>
+                   <p>offer professional web design services to create visually stunning, user-friendly, and responsive websites tailored to your brand. Our designs focus on clean aesthetics, smooth navigation, and mobile optimization to enhance user experience. Whether you need a business website, portfolio, or e-commerce store, we ensure a modern, high-performance online presence that drives engagement and growth. Let us bring your vision to life with cutting-edge web design solutions!</p>
+                   <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gear"></i>
+                    <h2>3D Machinery Design</h2>
+                    <p>offer expert SolidWorks design services to create precise, high-quality 3D models and CAD designs for your projects. Our team specializes in product design, mechanical parts, and assembly modeling, ensuring accuracy, efficiency, and manufacturability. Whether you need prototypes, technical drawings, or full-scale production designs, we deliver innovative solutions tailored to your needs. Let us bring your ideas to life with professional SolidWorks design services!</p>
+                    <a href="#">Learn More</a>
+                 </div>
+                 <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>2D Machinery Design</h2>
+                    <p> provide professional AutoCAD design services for precise and detailed 2D and 3D drafting. Our expertise includes architectural plans, mechanical drawings, electrical schematics, and structural designs, ensuring accuracy and compliance with industry standards. Whether you need blueprints, floor plans, or technical illustrations, we deliver high-quality AutoCAD solutions tailored to your project requirements. Let us bring your concepts to reality with expert drafting and design services!</p>
+                    <a href="#">Learn More</a>
+                 </div>
+            </div>
+        </div>
+      </div>
+<!-- Project -->
+<div id="project">
+<div class="container">
+    <h1 class="subtitle">Project</h1>
+    <div class="project-list">
+        <div class="proj">
+            <img src="tesla-logo-png-2255.png" >
+            <div class="layer">
+                <h3>Tesla web</h3>
+                <p>Tesla is a leading electric vehicle and clean energy company, innovating in EVs, solar energy, and autonomous driving technology.</p>
+                <a href="https://rahul181007.github.io/Electric-Cars-Solar-clean-energy/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+        <div class="proj">
+            <img src="Nothing-Phone-1-PNG-File.png" >
+            <div class="layer">
+                <h3>Nothing web</h3>
+                <p>Nothing is a tech company known for its minimalist design and innovative products like smartphones and earbuds.</p>
+                <a href="https://rahul181007.github.io/NOTHING/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+        <div class="proj">
+            <img src="pngwing.com (1).png" >
+            <div class="layer">
+                <h3>Facebook signup</h3>
+                <p>Facebook is a social media platform connecting people worldwide, offering messaging, content sharing, and digital advertising services.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+</div>
+<!-- contact -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rahulsheeraj@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9747921462</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Rahul Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="0f08869c-5ff0-4155-a17d-f436a5eef734">
+                    <input type="text" id="Name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea name="MEssage" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @RAHUL.</p>
+    </div>
+ </div>
+
+
+
+
+<script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+var sidemenu =document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+</script>
+
+
+    </body>
+</html>  
